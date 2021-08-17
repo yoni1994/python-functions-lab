@@ -24,3 +24,20 @@ def largest(li):
 # largest([1, 2, 3, 4, 0])
 # largest([10, 4, 2, 231, 91, 54])
 
+def occurances(str1, str2):
+    # print(str1.count(str2))
+    return str1.count(str2)
+# occurances('fleep floop', 'e')
+# occurances('fleep floop', 'p')
+# occurances('fleep floop', 'ee')
+# occurances('fleep floop', 'fe')
+
+def product(*nums):
+    total = 1
+    for num in nums:
+        total *= num
+    # print(total)
+    return(total)
+# product(-1, 4)
+# product(2, 5, 5)
+# product(4, 0.5, 5)
